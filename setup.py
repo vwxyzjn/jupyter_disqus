@@ -10,7 +10,7 @@ setup(
     long_description=readme,
     author='Costa Huang',
     author_email='costa.huang@outlook.com',
-    install_requires=['htmlmin==0.1.12'],
+    install_requires=['IPython', 'htmlmin==0.1.12'],
     packages=['jupyter_disqus', 'jupyter_disqus.tests'],
     classifiers=[
         'License :: OSI Approved :: BSD License',
