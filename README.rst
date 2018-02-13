@@ -1,13 +1,37 @@
+.. title:: Jupyter_Disqus Package
+
+Jupyter_Disqus Package
+=======================
+
 .. image:: https://travis-ci.org/vwxyzjn/jupyter_disqus.svg?branch=master
     :target: https://travis-ci.org/vwxyzjn/jupyter_disqus
-    :align: right
 
 .. image:: https://codecov.io/gh/computationalmodelling/python-package-template/branch/master/graph/badge.svg
     :target: https://codecov.io/gh/computationalmodelling/python-package-template
-    :align: right
 
-Attempt to provide a good-practice template for Python packages,
-making use of cloud-hosted services.
+
+You may use this package to inject and display `Disqus <https://disqus.com/>`_ in your jupyter notebook. 
+
+Installation
+=====================
+
+::
+
+  $ pip install jupyter_disqus
+
+
+Usage
+-------
+
+::  >>> from jupyter_disqus import inject
+    >>> # make sure to run this in a cell of your jupyter notebook
+    >>> inject(
+        page_url="https://costahuang.me",
+        page_identifier="SC2AI/",
+        site_shortname="costahuang"
+    )
+
+  >>> 
 
 Documentation `on Readthedocs <http://python-package-template.readthedocs.io/>`__.
 
@@ -20,4 +44,4 @@ Setting up external services:
 - Readthedocs: log in to https://readthedocs.org/ with your Github account, and
   add the repository.
 
-Authors: Thomas Kluyver, Hans Fangohr
+Authors: Costa Huang
