@@ -26,7 +26,7 @@ Installation
 Usage
 -------
 
-::  
+::python  
 
     from jupyter_disqus import inject
     # make sure to run this in a cell of your jupyter notebook
