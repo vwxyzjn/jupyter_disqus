@@ -23,15 +23,13 @@ Installation
 Usage
 -------
 
-::  >>> from jupyter_disqus import inject
-    >>> # make sure to run this in a cell of your jupyter notebook
-    >>> inject(
+::  from jupyter_disqus import inject
+    # make sure to run this in a cell of your jupyter notebook
+    inject(
         page_url="https://costahuang.me",
         page_identifier="SC2AI/",
         site_shortname="costahuang"
     )
-
-  >>> 
 
 Documentation `on Readthedocs <http://python-package-template.readthedocs.io/>`__.
 
