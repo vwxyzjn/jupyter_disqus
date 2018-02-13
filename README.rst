@@ -26,7 +26,9 @@ Installation
 Usage
 -------
 
-::  from jupyter_disqus import inject
+::  
+
+    from jupyter_disqus import inject
     # make sure to run this in a cell of your jupyter notebook
     inject(
         page_url="https://costahuang.me",
