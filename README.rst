@@ -9,6 +9,9 @@ Jupyter_Disqus Package
 .. image:: https://codecov.io/gh/computationalmodelling/python-package-template/branch/master/graph/badge.svg
     :target: https://codecov.io/gh/computationalmodelling/python-package-template
 
+.. image:: https://badge.fury.io/py/jupyter-disqus.svg
+    :target: https://badge.fury.io/py/jupyter-disqus
+
 
 You may use this package to inject and display `Disqus <https://disqus.com/>`_ in your jupyter notebook. 
 
