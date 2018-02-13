@@ -1,5 +1,5 @@
-.. image:: https://travis-ci.org/computationalmodelling/python-package-template.svg?branch=master
-    :target: https://travis-ci.org/computationalmodelling/python-package-template
+.. image:: https://travis-ci.org/vwxyzjn/jupyter_disqus.svg?branch=master
+    :target: https://travis-ci.org/vwxyzjn/jupyter_disqus
     :align: right
 
 .. image:: https://codecov.io/gh/computationalmodelling/python-package-template/branch/master/graph/badge.svg
