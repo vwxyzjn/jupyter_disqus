@@ -1,22 +1,19 @@
 from IPython.display import HTML
+import IPython
 import htmlmin
 
-def inject(page_url: str, page_identifier: str, site_shortname: str):
-    """
+def _format_disqus_code(page_url: str, page_identifier: str, site_shortname: str) -> str:
+    """This function formats the necessary html and javascript codes needed to be
+    inserted into the jupyter notebook
+
     Args:
         page_url (str): your page's canonical URL
         page_identifier (str): your page's unique identifier
         site_shortname (str): your site's disqus shortname
 
     Returns:
-        None
+        str: the formatted html disqus code
 
-    Example:
-        >>> jupyter_disqus.inject(
-                page_url= https://costahuang.me",
-                page_identifier = "SC2AI/",
-                site_shortname = "costahuang"
-            )
     """
     disqus_code = """
     <div id="disqus_thread"></div>
@@ -41,4 +38,26 @@ def inject(page_url: str, page_identifier: str, site_shortname: str):
         <script id="dsq-count-scr" src="//%s.disqus.com/count.js" async></script>
     </body>
     """ % (page_url, page_identifier, site_shortname, site_shortname)
-    HTML(htmlmin.minify(disqus_code))
+
+    return htmlmin.minify(disqus_code)
+
+def inject(page_url: str, page_identifier: str, site_shortname: str) -> IPython.core.display.HTML:
+    """this function injects and displays a disqus commenting section in a code cell of your jupyter notebook
+    Args:
+        page_url (str): your page's canonical URL
+        page_identifier (str): your page's unique identifier
+        site_shortname (str): your site's disqus shortname
+
+    Returns:
+        IPython.core.display.HTML
+
+    Example:
+        >>> from jupyter_disqus import inject
+        >>> # call this function in a separate code cell of your jupyter notebook
+        >>> inject(
+                page_url= https://costahuang.me",
+                page_identifier = "SC2AI/",
+                site_shortname = "costahuang"
+            )
+    """
+    return HTML(_format_disqus_code(page_url, page_identifier, site_shortname))
