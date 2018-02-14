@@ -6,8 +6,8 @@ Jupyter_Disqus Package
 .. image:: https://travis-ci.org/vwxyzjn/jupyter_disqus.svg?branch=master
     :target: https://travis-ci.org/vwxyzjn/jupyter_disqus
 
-.. image:: https://codecov.io/gh/computationalmodelling/python-package-template/branch/master/graph/badge.svg
-    :target: https://codecov.io/gh/computationalmodelling/python-package-template
+.. image:: https://codecov.io/gh/vwxyzjn/jupyter_disqus/branch/master/graph/badge.svg
+    :target: https://codecov.io/gh/vwxyzjn/jupyter_disqus
 
 .. image:: https://badge.fury.io/py/jupyter-disqus.svg
     :target: https://badge.fury.io/py/jupyter-disqus
