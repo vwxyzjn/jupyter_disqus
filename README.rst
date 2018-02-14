@@ -38,21 +38,9 @@ Usage
     from jupyter_disqus import inject
     # make sure to run this in a cell of your jupyter notebook
     inject(
-        page_url="https://costahuang.me",
-        page_identifier="SC2AI/",
-        site_shortname="costahuang"
+        page_url="https://costahuang.me/SC2AI/",
+        page_identifier="1f527ae5-5a59-4dc3-9bb0-d77c2ccf5cab",  # unique identifier
+        site_shortname="costahuang"                              # your disqus site shortname, e.g. costahuang.disqus.com
     )
-
-
-Documentation `on Readthedocs <http://python-package-template.readthedocs.io/>`__.
-
-Setting up external services:
-
-- Travis (for running the tests): log in to https://travis-ci.org/ with your
-  Github account and flip the switch for the repository.
-- The tests running on Travis will automatically set up the project on
-  https://codecov.io/
-- Readthedocs: log in to https://readthedocs.org/ with your Github account, and
-  add the repository.
 
 Authors: Costa Huang

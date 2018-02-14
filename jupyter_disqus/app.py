@@ -55,9 +55,9 @@ def inject(page_url: str, page_identifier: str, site_shortname: str) -> IPython.
         >>> from jupyter_disqus import inject
         >>> # call this function in a separate code cell of your jupyter notebook
         >>> inject(
-                page_url= https://costahuang.me",
-                page_identifier = "SC2AI/",
-                site_shortname = "costahuang"
+                page_url="https://costahuang.me/SC2AI/",
+                page_identifier="1f527ae5-5a59-4dc3-9bb0-d77c2ccf5cab",
+                site_shortname="costahuang"
             )
     """
     return HTML(_format_disqus_code(page_url, page_identifier, site_shortname))
