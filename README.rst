@@ -40,7 +40,7 @@ Usage
     inject(
         page_url="https://costahuang.me/SC2AI/",
         page_identifier="1f527ae5-5a59-4dc3-9bb0-d77c2ccf5cab",  # unique identifier
-        site_shortname="costahuang"                              # your disqus site shortname, e.g. costahuang.disqus.com
+        site_shortname="costahuang"                              # your disqus site shortname
     )
 
 Authors: Costa Huang
