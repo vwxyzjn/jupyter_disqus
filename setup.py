@@ -5,7 +5,7 @@ with open('README.rst') as f:
 
 setup(
     name='jupyter_disqus',
-    version='0.1',
+    version='0.1.2',
     description='Add disqus to your jupyter notebook',
     long_description=readme,
     author='Costa Huang',

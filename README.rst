@@ -16,8 +16,8 @@ You may use this package to inject and display `Disqus <https://disqus.com/>`_ i
 Demo
 -----------------------
 
-.. image:: demo.gif
-    :target: demo.gif
+.. image:: https://github.com/vwxyzjn/jupyter_disqus/raw/master/demo.gif
+    :target: https://github.com/vwxyzjn/jupyter_disqus/raw/master/demo.gif
 
 
 Installation
