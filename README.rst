@@ -15,6 +15,13 @@ Jupyter_Disqus Package
 
 You may use this package to inject and display `Disqus <https://disqus.com/>`_ in your jupyter notebook. 
 
+Demo
+=======================
+
+.. image:: demo.gif
+    :target: demo.gif
+
+
 Installation
 =====================
 
@@ -24,7 +31,7 @@ Installation
 
 
 Usage
--------
+==========
 
 .. code-block:: python
 
@@ -35,6 +42,7 @@ Usage
         page_identifier="SC2AI/",
         site_shortname="costahuang"
     )
+
 
 Documentation `on Readthedocs <http://python-package-template.readthedocs.io/>`__.
 
