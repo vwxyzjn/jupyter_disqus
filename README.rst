@@ -10,8 +10,10 @@ Jupyter_Disqus Package
 .. image:: https://badge.fury.io/py/jupyter-disqus.svg
     :target: https://badge.fury.io/py/jupyter-disqus
 
+Introduction
+---------------------------
 
-You may use this package to inject and display `Disqus <https://disqus.com/>`_ in your jupyter notebook. 
+You may use this package to inject and display `Disqus <https://disqus.com/>`_ in your jupyter notebook, which might be helpful for couple use cases. For example, if you are doing a tutorial or a demonstration, ``Jupyter_Disqus`` allows you to answer questions that other people may have. Also, you may get some helpful feedback from the audience as well.
 
 Demo
 -----------------------
