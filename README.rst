@@ -1,5 +1,3 @@
-.. title:: Jupyter_Disqus Package
-
 Jupyter_Disqus Package
 =======================
 
@@ -16,14 +14,14 @@ Jupyter_Disqus Package
 You may use this package to inject and display `Disqus <https://disqus.com/>`_ in your jupyter notebook. 
 
 Demo
-=======================
+-----------------------
 
 .. image:: demo.gif
     :target: demo.gif
 
 
 Installation
-=====================
+-------------------------
 
 ::
 
@@ -31,7 +29,7 @@ Installation
 
 
 Usage
-==========
+----------------------
 
 .. code-block:: python
 
